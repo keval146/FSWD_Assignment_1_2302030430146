@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | RANK KEVAL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-200 font-sans antialiased">
+
+    <nav class="fixed w-full bg-slate-900/90 backdrop-blur-sm border-b border-slate-700 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-teal-400">KEVAL<span class="text-white">.</span></h1>
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#home" class="hover:text-teal-400 transition">Home</a></li>
+                <li><a href="#about" class="hover:text-teal-400 transition">About</a></li>
+                <li><a href="#projects" class="hover:text-teal-400 transition">Projects</a></li>
+                <li><a href="#contact" class="hover:text-teal-400 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-16">
+        <div class="text-center px-4">
+            <span class="text-teal-400 font-medium tracking-wider">HELLO, WORLD</span>
+            <h1 class="text-5xl md:text-7xl font-bold mt-4 mb-6">I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">RANK KEVAL</span></h1>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-8">
+                A passionate B.Tech student and Full Stack Developer crafting modern web experiences.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#projects" class="px-8 py-3 bg-teal-500 text-slate-900 font-bold rounded-full hover:bg-teal-400 transition">View Work</a>
+                <a href="#contact" class="px-8 py-3 border border-slate-600 rounded-full hover:border-teal-400 hover:text-teal-400 transition">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center border-b-2 border-teal-500 inline-block pb-2">Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-6 bg-slate-700 rounded-xl hover:-translate-y-2 transition duration-300 shadow-lg">
+                    <h3 class="font-bold text-xl">HTML5</h3>
+                </div>
+                <div class="p-6 bg-slate-700 rounded-xl hover:-translate-y-2 transition duration-300 shadow-lg">
+                    <h3 class="font-bold text-xl">Tailwind CSS</h3>
+                </div>
+                <div class="p-6 bg-slate-700 rounded-xl hover:-translate-y-2 transition duration-300 shadow-lg">
+                    <h3 class="font-bold text-xl">JavaScript</h3>
+                </div>
+                <div class="p-6 bg-slate-700 rounded-xl hover:-translate-y-2 transition duration-300 shadow-lg">
+                    <h3 class="font-bold text-xl">React</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-8 text-center text-slate-500 text-sm">
+        <p>&copy; 2025 RANK KEVAL . Built with HTML5 & Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
